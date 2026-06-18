@@ -13,10 +13,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 4px 40px 16px;
-    width: 62%;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .header {
@@ -29,6 +30,7 @@ body {
     gap: 24px;
     justify-content: flex-end;
     font-size: 18px;
+    font-weight: 300;
 }
 
 .link-container a {
@@ -94,13 +96,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
     padding: 0px 0px 120px 0px;
 }
 
 .second-title {
-    display: flex;
-    justify-content: center;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -137,7 +136,6 @@ figcaption {
     height: 250px;
     display: flex;
     flex-direction: column;
-    max-width: 100%;
     background-color: #e5e7eb;
     padding: 50px 300px 75px 300px;
 }
@@ -145,14 +143,13 @@ figcaption {
 .full-third-section p {
     font-size: 36px;
     color : #1f2937;
-    font-weight: 300;
+    font-weight: lighter;
     display: flex;
-    align-items: center;
+    font-style: italic;
 }
 
 .random-person {
-    display: flex;
-    justify-content: flex-end;
+    text-align: right;
     font-weight: bold;
 }
 
@@ -203,6 +200,16 @@ figcaption {
     align-items: center;
     margin-left: 100px;
 }
+
+footer {
+    background-color: #1f2937;
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
 
 
 
