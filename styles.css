@@ -156,6 +156,53 @@ figcaption {
     font-weight: bold;
 }
 
+.full-fourth-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
+    padding: 80px 200px 80px 200px;
+}
+
+.blue-box {
+    height: 150px;
+    background-color: #3882f6;
+    width: 1000px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.blue-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.call-to-action {
+    font-weight: 900;
+}
+
+.blue-content p {
+    font-weight: 300;
+}
+
+.full-fourth-section button {
+    background-color: #3882f6;
+    display: flex;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
 
 
 
